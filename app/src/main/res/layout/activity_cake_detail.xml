@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/logo"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CakeDetail">
+
+    <TextView
+        android:id="@+id/txtback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_keyboard_backspace"
+        android:onClick="go_to_home"
+        android:padding="10dp"
+        android:textSize="15sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ivImage"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Title"
+        android:textSize="15sp"
+        android:id="@+id/txtTitle"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Description"
+        android:textSize="15sp"
+        android:id="@+id/txtDescription"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10sp"
+        android:text="Price"
+        android:textSize="19sp"
+        android:id="@+id/txtPrice"
+        />
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_placeOrder"
+        android:layout_width="257dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/transparent"
+        android:text="place order (Cod method)" />
+
+
+</LinearLayout>

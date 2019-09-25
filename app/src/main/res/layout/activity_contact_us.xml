@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/logo"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs">
+
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="150dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/officeaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="191dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+        android:text="101,Ganesh apt,\nSB Patil Road,\n Gazdhar Bandh,\n Santacruz (West)\nMumbai 400054."
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_weight="1"
+        android:onClick="callaman"
+        android:text=" Click on numbers for call me:\n           +91 9967839987"
+        android:textStyle="bold" />
+</LinearLayout>>
+</RelativeLayout>

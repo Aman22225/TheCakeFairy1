@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "58601533797",
+    "firebase_url": "https://thecakefairy-cc42a.firebaseio.com",
+    "project_id": "thecakefairy-cc42a",
+    "storage_bucket": "thecakefairy-cc42a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58601533797:android:cdfa25c8593c6024",
+        "android_client_info": {
+          "package_name": "com.aman.thecakefairy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58601533797-92vesrc7jm4soi9bdkjpmu127dcov6gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aman.thecakefairy",
+            "certificate_hash": "f15fe2f986f822dda053cb379239cdf18a385ebd"
+          }
+        },
+        {
+          "client_id": "58601533797-39g7h99kmi6pgnc48pbqano9n8c4eq3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG6mmun9R8uaekINcMPSqfNHPxIO5hbkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58601533797-39g7h99kmi6pgnc48pbqano9n8c4eq3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

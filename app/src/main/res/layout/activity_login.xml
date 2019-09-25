@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo"
+    tools:context=".Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="200dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                >
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="291dp"
+                    android:layout_height="58dp"
+                    android:layout_marginLeft="20sp"
+                    android:ems="15"
+                    android:hint="email"
+                    android:inputType="text"
+                    android:textColorHint="#000000"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                app:passwordToggleEnabled="true"
+                >
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="298dp"
+                    android:layout_height="52dp"
+                    android:layout_marginLeft="20sp"
+                    android:ems="15"
+                    android:hint="password"
+                    android:inputType="textPassword"
+                    android:textColorHint="#000000"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="191dp"
+                android:layout_height="50dp"
+                android:background="#669C9C9C"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="100dp"
+                android:text="Login" />
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="236dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="79dp"
+                android:layout_marginTop="40sp"
+                android:onClick="go_to_register"
+                android:background="#669C9C9C"
+                android:text="New User? Register Now"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
